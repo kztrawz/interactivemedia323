@@ -1,9 +1,9 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: white;
+	background-color: #37b0b7;
 	font-family: Helvetica;
-	font-size: 16px;
+	font-size: 18px;
 	text-align: justify;
 	line-height: 1.2;
 }
@@ -11,42 +11,46 @@ body {
 
 h1 {
 	text-align: center;
-	font-family: Ariel;
-	font-size: 88px;
-	color: green;
-	line-height: 60%;
+	font-family: Ariel sans-sarif;
+	font-size: 50px;
+	color: #9dd845;
+	line-height: 50%;
 	letter-spacing: 2px;
 	font-weight: 1px;
-	background-color: brown; 
+	background-color: none;
+
 }
 
 h2 {
 	text-align: center;
 	font-family: Ariel;
 	font-size: 35px;
-	color: green;
+	color: #cdeaa1;
 	letter-spacing: 1px;
 }
 
+strong {
+	color: #41b7e2;
+}
+
 #overview {
-	column-count: 2;
+	column-count: 1;
 }
 
 .holding {
 	background-color: #a86206;
-	width: 700px;
+	width: 750px;
 	display: block;
 	margin: auto;
 }
-img {
-	display: block;
-	margin: auto;
-	padding: 20px;
+.picture {
+	width: 550px;
+	height: 450px;
 }
 
 .tips {
 	background-color: #a86206;
-	width: 700px;
+	width: 750px;
 	display: block;
 	margin: auto;
 }
@@ -55,4 +59,9 @@ a#back-to-top {
 	text-decoration: underline;
 	font-style: italic;
 	font-family: Verdana;
+	text-align: center;
+}
+
+span {
+	text-align: center;
 }
