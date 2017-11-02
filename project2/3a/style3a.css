@@ -1,0 +1,31 @@
+.divide {
+	border: thin;
+	width: 180px;
+	position: relative;
+	left: 250px;
+	top: 100px;
+}
+
+.subtract {
+	border: thin;
+	width: 180px;
+	position: relative;
+	left: 375px;
+	top: 100px;
+}
+
+.add {
+	border: thin;
+	width: 180px;
+	position: relative;
+	left: 425px;
+	top: 100px;
+}
+
+.mult {
+	border: thin;
+	width: 180px;
+	position: relative;
+	left: 250px;
+	top: 100px;
+}

@@ -1,0 +1,23 @@
+.divide {
+			border: dashed medium black;
+			position: inline-block;
+			width: 25%;
+		}
+
+		.subtract {
+			border: solid medium black;
+			position: inline-block;
+			width: 21.5%;
+		}
+
+		.add {
+			border: dashed thin black;
+			position: inline-block;
+			width: 18.5%
+		}
+
+		.multiply {
+			border: solid thin black;
+			position: inline-block;
+			width: 15.5%
+		}
