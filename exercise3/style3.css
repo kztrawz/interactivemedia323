@@ -6,7 +6,13 @@ body {
 	text-align: center;
 }
 
-#toolbar {
-	
+.toolbar {
+	position: absolute;
+	top: 15px;
+	transition: opacity 130ms;
+	width: 100%;
 }
 
+#icons {
+	
+}
