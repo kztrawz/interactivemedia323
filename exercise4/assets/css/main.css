@@ -13,3 +13,11 @@ body {
 	background: white;
 	position: relative;
 }
+
+.canvas2 {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
