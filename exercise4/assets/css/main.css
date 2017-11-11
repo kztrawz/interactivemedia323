@@ -10,7 +10,7 @@ body {
 	width: 900px;
 	height: 556px;
 	margin: 100px auto;
-	background: white;
+	background: #b7892c;
 	position: relative;
 }
 
@@ -21,3 +21,99 @@ body {
 	background: white;
 	position: relative;
 }
+
+#iphone {
+	height: 408px;
+	width: 208px;
+	background-color: #fff;
+	display: block;
+	position: relative;
+	border: 2px solid #999;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	box-shadow: 1px -3px 0px 1px #C0C0C0;
+	-webkit-box-shadow: 1px -3px 0px 1px #C0C0C0;
+	left: 360px;
+	top: 44px;
+}
+
+.camera {
+	width: 10px;
+	height: 10px;
+	background: #000;
+	position: absolute;
+	margin: 23px 65px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+.lens {
+	width: 4px;
+	height: 4px;
+	background: gray;
+	position: absolute;
+	margin: 3px 3px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+.speaker {
+	width: 45px;
+	height: 12px;
+	background: #000;
+	position: absolute;
+	margin: 22px 85px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+.sound {
+	width: 37px;
+	height: 4px;
+	background: gray;
+	position: absolute;
+	margin: 4px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+.screen {
+	height: 292px;
+	width: 194px;
+	position: absolute;
+	background: -webkit-linear-gradient(-45deg, #4B4C4D, #000);
+	margin: 55px 5px;
+}
+
+.button {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	border: 1px solid #000;
+	margin: 355px 80px;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+.square {
+	width: 12px;
+	height: 12px;
+	border: 1px solid gray;
+	position: absolute;
+	margin: 13px 13px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.gradient {
+	height: 204px;
+	width: 104px;
+	background: -webkit-linear-gradient(180deg, white, #b7892c);
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	position: relative;
+	left: 51px;
+	top: 355px;
+	transform: rotate(270deg);
+}
+
