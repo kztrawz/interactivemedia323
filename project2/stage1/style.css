@@ -1,7 +1,7 @@
 .nav {
 	font-family: serif;
 	text-align: center;
-	display: inline;
+	display: inline-block;
 	text-align: center;
 	font-size: 20px;
 }
@@ -12,6 +12,7 @@
 	background: brown;
 	color: #0aff3f;
 	margin-left: 50%;
+	text-decoration: 
 }
 
 .home:hover {
@@ -37,6 +38,7 @@
 	width: 50px;
 	background: brown;
 	color: #0aff3f;
+	margin-left: 0px;
 }
 
 .previous:hover {
