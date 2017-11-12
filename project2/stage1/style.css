@@ -11,6 +11,7 @@
 	width: 50px;
 	background: brown;
 	color: #0aff3f;
+	margin-left: 50%;
 }
 
 .home:hover {
@@ -23,9 +24,22 @@
 	width: 50px;
 	background: brown;
 	color: #0aff3f;
+	margin-left: 100%;
 }
 
 .next:hover {
 	background: #0aff3f;
 	color: brown;
+}
+
+.previous {
+	height: 25px;
+	width: 50px;
+	background: brown;
+	color: #0aff3f;
+}
+
+.previous:hover {
+	background: #0aff3f;
+	color: brown;	
 }
