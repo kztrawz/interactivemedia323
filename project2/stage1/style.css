@@ -1,0 +1,31 @@
+.nav {
+	font-family: serif;
+	text-align: center;
+	display: inline;
+	text-align: center;
+	font-size: 20px;
+}
+
+.home {
+	height: 25px;
+	width: 50px;
+	background: brown;
+	color: #0aff3f;
+}
+
+.home:hover {
+	background: #0aff3f;
+	color: brown;
+}
+
+.next {
+	height: 25px;
+	width: 50px;
+	background: brown;
+	color: #0aff3f;
+}
+
+.next:hover {
+	background: #0aff3f;
+	color: brown;
+}

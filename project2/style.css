@@ -1,0 +1,554 @@
+body {
+	background-image: url(https://i.pinimg.com/originals/ce/7f/55/ce7f55d0ce9ec88c238f4f0f5731d809.jpg);
+}
+
+#math {
+	position: relative;
+	display: inline-block;
+	top: 640px;
+	margin-left: -100px;
+}
+
+.division {
+	position: absolute;
+}
+
+.bar {
+	height: 38px;
+	width: 150px;
+	position: absolute;
+	background: red;
+	left: 110px;
+	top: 50px; 
+}
+
+.dot1 {
+	position: absolute;
+	background: red;
+	height: 45px;
+	width: 45px;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	left: 165px;
+}
+
+.dot2 {
+	position: absolute;
+	background: red;
+	height: 45px;
+	width: 45px;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	left: 165px;
+	top: 95px;	
+}
+
+#level1 {
+	font-family: sans-serif;
+	font-size: 40px;
+	color: white;
+	position: absolute;
+	bottom: 12px;
+	left: 120px;
+}
+
+.subtraction {
+	position: absolute;
+	background: #8bb1ef;
+	height: 38px;
+	width: 150px;
+	left: 375px;
+	top: 50px;	
+}
+
+#level2 {
+	font-family: sans-serif;
+	font-size: 40px;
+	color: white;
+	position: absolute;
+	bottom: 100px;
+	left: 7px;
+}
+
+.addition {
+	position: absolute;
+	left: 200px;
+}
+
+.plus1 {
+	position: absolute;
+	background: #12e85d;
+	height: 38px;
+	width: 150px;
+	left: 450px;
+	top: 50px;	
+}
+
+.plus2 {
+	position: absolute;
+	background: #12e85d;
+	transform: rotate(90deg);
+	height: 38px;
+	width: 150px;
+	left: 450px;
+	top: 50px;	
+}
+
+#level3 {
+	font-family: sans-serif;
+	font-size: 40px;
+	color: white;
+	position: absolute;
+	bottom: 12px;
+	left: 460px;
+}
+
+.multiplication {
+	position: absolute;
+	left: -250px;
+}
+
+.mark1 {
+	position: absolute;
+	background: #dd883e;
+	transform: rotate(45deg);
+	height: 38px;
+	width: 150px;
+	left: 1200px;
+	top: 50px;
+}
+
+.mark2 {
+	position: absolute;
+	background: #dd883e;
+	transform: rotate(-45deg);
+	height: 38px;
+	width: 150px;
+	left: 1200px;
+	top: 50px;
+}
+
+#level4 {
+	font-family: sans-serif;
+	font-size: 40px;
+	color: white;
+	position: absolute;
+	bottom: 12px;
+	left: 1200px;
+}
+
+.equal {
+	position:relative;
+	right: 421px;
+}
+
+.bar2 {
+	position: absolute;
+	background: #2228e5;
+	height: 38px;
+	width: 150px;
+	left: 1650px;
+	top: 25px;
+}
+
+.bar3 {
+	position: absolute;
+	background: #2228e5;
+	height: 38px;
+	width: 150px;
+	left: 1650px;
+	top: 80px;
+}
+
+#level5 {
+	font-family: sans-serif;
+	font-size: 40px;
+	color: white;
+	position: absolute;
+	bottom: 12px;
+	left: 1655px;
+}
+
+.a1-first {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	text-align: center;
+}
+
+.a1-first:hover {
+	color: white;
+}
+
+.b1-first {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	text-align: center;
+}
+
+.b1-first:hover {
+	color: white;	
+}
+
+.c1-first {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 70px;
+	top: 0px;
+}
+
+.c1-first:hover {
+	color: white;	
+}
+
+.d1-first {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 125px;
+	top: 0px;
+}
+
+.d1-first:hover {
+	color: white;	
+}
+
+.e1-first {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	text-align: center;
+}
+
+.e1-first:hover {
+	color: white;	
+}
+
+.a2-second {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 0px;
+}
+
+.a2-second:hover {
+	color: white;
+}
+
+.b2-second {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 30px;
+}
+
+.b2-second:hover {
+	color: white;
+}
+
+.c2-second {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 62px;
+}
+
+.c2-second:hover {
+	color: white;
+}
+
+.d2-second {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 94px;
+}
+
+.d2-second:hover {
+	color: white;
+}
+
+.e2-second {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 125px;
+}
+
+.e2-second:hover {
+	color: white;
+}
+
+.a3-third{
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 0px;
+}
+
+.a3-third:hover {
+	color: white;
+}
+
+.b3-third{
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	transform: rotate(-90deg);
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 55px;
+	bottom: 12px;
+}
+
+.b3-third:hover {
+	color: white;
+}
+
+.c3-third{
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 125px;
+}
+
+.c3-third:hover {
+	color: white;
+}
+
+.d3-third{
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	transform: rotate(-90deg);
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	bottom: 12px;
+}
+
+.d3-third:hover {
+	color: white;
+}
+
+.e3-third{
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	transform: rotate(-90deg);
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 112px;
+	bottom: 12px;
+}
+
+.e3-third:hover {
+	color: white;
+}
+
+.a4-fourth {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	transform: rotate(-45deg);
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+}
+
+.a4-fourth:hover {
+	color: white
+}
+
+.b4-fourth {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	transform: rotate(45deg);
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 120px;
+	top: 7px;
+}
+
+.b4-fourth:hover {
+	color: white
+}
+
+.c4-fourth {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	transform: rotate(45deg);
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 0px;
+	top: 10px;
+}
+
+.c4-fourth:hover {
+	color: white
+}
+
+.d4-fourth {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	transform: rotate(-45deg);
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 125px;
+	bottom: 5px;
+}
+
+.d4-fourth:hover {
+	color: white
+}
+
+.e4-fourth {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	transform: rotate(45deg);
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 60px;
+	top: 11px;
+}
+
+.e4-fourth:hover {
+	color: white
+}
+
+.a5-fifth {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 3px;
+}
+
+.a5-fifth:hover {
+	color: white;
+}
+
+.b5-fifth {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 60px;
+}
+
+.b5-fifth:hover {
+	color: white;
+}
+
+.c5-fifth {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 125px;
+}
+
+.c5-fifth:hover {
+	color: white;
+}
+
+.d5-fifth {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 3px;
+}
+
+.d5-fifth:hover {
+	color: white;
+}
+
+.e5-fifth {
+	font-family: Garamond;
+	font-size: 35px;
+	color: transparent;
+	height: 45px;
+	width: 45px;
+	position: absolute;
+	left: 125px;
+}
+
+.e5-fifth:hover {
+	color: white;
+}
+
+#main {
+	text-align: center;
+	position: relative;
+	display: block;
+	color: white;
+}
+
+h1 {
+	font-family: cursive;
+	font-size: 100px;
+}
+
+h3 {
+	font-family: Ariel Black, sans-serif;
+	font-size: 50px;
+}
