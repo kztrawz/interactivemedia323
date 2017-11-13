@@ -2,9 +2,6 @@
 <html>
 <head>
 	<style>
-		div {
-			cursor: pointer;
-		}
 
 		.division {
 			font-family: Courier;
@@ -15,8 +12,19 @@
 		}
 
 		.division:hover {
-			animation: ease-in;
-			animation-duration: 5s;
+			animation-name: fadeInDown; 
+		}
+
+		@keyframes fadeInDown {
+  			from {
+    			opacity: 0;
+    			transform: translate3d(0, -100%, 0);
+ 				 }
+
+  			to {
+    			opacity: 1;
+    			transform: none;
+  				}
 		}
 
 		.four {
@@ -28,8 +36,18 @@
 		}
 
 		.four:hover {
-			animation: ease-in;
-			animation-duration: 5s;
+			animation-name: slideInLeft;
+		}
+
+		@keyframes slideInLeft {
+			from {
+    		transform: translate3d(-100%, 0, 0);
+    		visibility: visible;
+  			}
+			
+			to {
+   			transform: translate3d(0, 0, 0);
+  			}				
 		}
 
 		.subtraction {
@@ -41,8 +59,18 @@
 		}
 
 		.subtraction:hover {
-			animation: ease-in;
-			animation-duration: 5s;
+			animation-name: slideInDown;
+		}
+
+		@keyframes slideInDown {
+			from {
+    		transform: translate3d(0, -100%, 0);
+    		visibility: visible;
+  			}
+
+  			to {
+    		transform: translate3d(0, 0, 0);
+  			}
 		}
 
 		.then {
@@ -54,8 +82,19 @@
 		}
 
 		.then:hover {
-			animation: ease-in;
-			animation-duration: 5s;
+			animation-name: rollIn;
+		}
+
+		@keyframes rollIn {
+			from {
+    		opacity: 0;
+    		transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+  			}
+
+  			to {
+    		opacity: 1;
+    		transform: none;
+  			}
 		}
 
 		.addition {
@@ -67,8 +106,21 @@
 		}
 
 		.addition:hover {
-			animation: ease-in;
-			animation-duration: 5s;
+			animation-name: rotateIn;
+		}
+
+		@keyframes rotateIn {
+			from {
+    		transform-origin: center;
+    		transform: rotate3d(0, 0, 1, -200deg);
+    		opacity: 0;
+  			}
+
+  			to {
+    		transform-origin: center;
+    		transform: none;
+    		opacity: 1;
+  			}
 		}
 
 		.here {
@@ -80,8 +132,18 @@
 		}
 
 		.here:hover {
-			animation: ease-in;
-			animation-duration: 5s;
+			animation-name: zoomIn;
+		}
+
+		@keyframes zoomIn {
+			from {
+    		opacity: 0;
+    		transform: scale3d(.3, .3, .3);
+  			}
+
+  			50% {
+    		opacity: 1;
+  			}
 		}
 
 		.sky {
@@ -93,8 +155,30 @@
 		}
 
 		.sky:hover {
-			animation: ease-in;
-			animation-duration: 5s;
+			animation-name: lightSpeedIn;
+			animation-timing-function: ease-out;
+		}
+
+		@keyframes lightSpeedIn {
+			from {
+    		transform: translate3d(100%, 0, 0) skewX(-30deg);
+    		opacity: 0;
+  			}
+
+  			60% {
+    		transform: skewX(20deg);
+    		opacity: 1;
+  			}
+
+  			80% {
+    		transform: skewX(-5deg);
+    		opacity: 1;
+  			}
+
+  			to {
+    		transform: none;
+    		opacity: 1;
+  			}
 		}
 
 		.multiplication {
@@ -106,8 +190,28 @@
 		}
 
 		.multiplication:hover {
-			animation: ease-in;
-			animation-duration: 5s;
+			animation-name: jackInTheBox;
+		}
+
+		@keyframes jackInTheBox {
+			from {
+    		opacity: 0;
+    		transform: scale(0.1) rotate(30deg);
+    		transform-origin: center bottom;
+  			}
+
+  			50% {
+    		transform: rotate(-10deg);
+  			}
+
+  			70% {
+    		transform: rotate(3deg);
+  			}
+
+  			to {
+    		opacity: 1;
+    		transform: scale(1);
+  			}		
 		}
 
 		.nav {
