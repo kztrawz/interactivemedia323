@@ -3,28 +3,37 @@
 <head>
 	<style>
 
+	html, body {
+	height: 100%;
+}
+
+body {
+	overflow: hidden;
+}
+
+.box {
+	max-width: 70vw;
+	padding: 30px;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	font-size: 30px;
+	line-height: 1.5;
+	transform: translateY(-50%);
+	perspective: 400px;
+}
+
+.source {
+	color: skyblue;
+	margin: 0 auto;
+}
+
 		.division {
 			font-family: Courier;
 			font-size: 75px;
 			color: brown;
 			position: relative;
 			left: 250px;
-		}
-
-		@keyframes fadeInDown {
-  			from {
-    			opacity: 0;
-    			transform: translate3d(0, -100%, 0);
- 				 }
-
-  			to {
-    			opacity: 1;
-    			transform: none;
-  				}
-		}
-
-		.division:hover {
-			animation-name: fadeInDown; 
 		}
 
 		.four {
@@ -35,20 +44,6 @@
 			left: 500px;
 		}
 
-		@keyframes slideInLeft {
-			from {
-    		transform: translate3d(-100%, 0, 0);
-    		visibility: visible;
-  			}
-			
-			to {
-   			transform: translate3d(0, 0, 0);
-  			}				
-		}
-
-		.four:hover {
-			animation-name: slideInLeft;
-		}
 
 		.subtraction {
 			font-family: Ariel Black;
@@ -56,21 +51,6 @@
 			color: grey;
 			position: relative;
 			left: 350px;
-		}
-
-		@keyframes slideInDown {
-			from {
-    		transform: translate3d(0, -100%, 0);
-    		visibility: visible;
-  			}
-
-  			to {
-    		transform: translate3d(0, 0, 0);
-  			}
-		}
-
-		.subtraction:hover {
-			animation-name: slideInDown;
 		}
 
 		.then {
@@ -81,46 +61,12 @@
 			left: 100px;
 		}
 
-		@keyframes rollIn {
-			from {
-    		opacity: 0;
-    		transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
-  			}
-
-  			to {
-    		opacity: 1;
-    		transform: none;
-  			}
-		}
-
-		.then:hover {
-			animation-name: rollIn;
-		}
-
 		.addition {
 			font-family: sans-serif;
 			font-size: 75px;
 			color: green;
 			position: relative;
 			left: 600px;
-		}
-
-		@keyframes rotateIn {
-			from {
-    		transform-origin: center;
-    		transform: rotate3d(0, 0, 1, -200deg);
-    		opacity: 0;
-  			}
-
-  			to {
-    		transform-origin: center;
-    		transform: none;
-    		opacity: 1;
-  			}
-		}
-
-		.addition:hover {
-			animation-name: rotateIn;
 		}
 
 		.here {
@@ -131,21 +77,6 @@
 			left: 420px;
 		}
 
-		@keyframes zoomIn {
-			from {
-    		opacity: 0;
-    		transform: scale3d(.3, .3, .3);
-  			}
-
-  			50% {
-    		opacity: 1;
-  			}
-		}
-
-		.here:hover {
-			animation-name: zoomIn;
-		}
-
 		.sky {
 			font-family: serif;
 			font-size: 75px;
@@ -154,64 +85,12 @@
 			left: 275px;
 		}
 
-		@keyframes lightSpeedIn {
-			from {
-    		transform: translate3d(100%, 0, 0) skewX(-30deg);
-    		opacity: 0;
-  			}
-
-  			60% {
-    		transform: skewX(20deg);
-    		opacity: 1;
-  			}
-
-  			80% {
-    		transform: skewX(-5deg);
-    		opacity: 1;
-  			}
-
-  			to {
-    		transform: none;
-    		opacity: 1;
-  			}
-		}
-
-		.sky:hover {
-			animation-name: lightSpeedIn;
-			animation-timing-function: ease-out;
-		}
-
 		.multiplication {
 			font-family: Garamond;
 			font-size: 75px;
 			color: orange;
 			position: relative;
 			left: 188px;
-		}
-
-		@keyframes jackInTheBox {
-			from {
-    		opacity: 0;
-    		transform: scale(0.1) rotate(30deg);
-    		transform-origin: center bottom;
-  			}
-
-  			50% {
-    		transform: rotate(-10deg);
-  			}
-
-  			70% {
-    		transform: rotate(3deg);
-  			}
-
-  			to {
-    		opacity: 1;
-    		transform: scale(1);
-  			}		
-		}
-
-		.multiplication:hover {
-			animation-name: jackInTheBox;
 		}
 
 		.nav {
@@ -268,6 +147,30 @@
 	color: brown;	
 }
 	</style>
+
+	<script type="text/javascript">
+		var text = $(".split");
+
+var split = new SplitText(text);
+
+function random(min, max){
+	return (Math.random() * (max - min)) + min;
+}
+
+$(split.chars).each(function(i){
+	TweenMax.from($(this), 2.5, {
+		opacity: 0,
+		x: random(-500, 500),
+		y: random(-500, 500),
+		z: random(-500, 500),
+		scale: .1,
+		delay: i * .02,
+		yoyo: true,
+		repeat: -1,
+		repeatDelay: 10
+	});
+});
+	</script>
 	<title>Level 5: 5C</title>
 </head>
 <body>
@@ -276,6 +179,8 @@
 		<a href="http://kztrawz.github.io/interactivemedia323/project2/stage5/5b.html"><div class="previous"> Prev </div></a> <a href="http://kztrawz.github.io/interactivemedia323/project2/index.html"><div class="home"> Home </div> </a> <a href="http://kztrawz.github.io/interactivemedia323/project2/stage5/5d.html"><div class="next"> Next </div> </a>
 	</div>
 
+<div class="box">
+	<section class="split">
 	<div class="division">
 		<p>Divide the year into seasons,</p>
 	</div>
@@ -300,5 +205,7 @@
 	<div class="multiplication">
 		<p>orange poppies multiply.</p>
 	</div>
+	</section>
+</div>
 </body>
 </html>
