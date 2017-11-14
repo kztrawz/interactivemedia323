@@ -1,9 +1,42 @@
 #square {
-			border: thin;
-			width: 175px
-			padding-right: 20px;
-			padding-bottom: 30px;
+			border: solid medium black;
+			width: 275px;
+			padding-left: 5px;
+			padding-bottom: 15px;
 			position: relative;
-			right: 400px;
-			top: 100px;
+			left: 500px;
+			top: 150px;
 		}
+
+.nav {
+	font-family: serif;
+	text-align: center;
+}
+
+.nav p {
+	padding: 2px;
+	background-color: brown;
+	color: #0aff3f;
+	/* margin-top: 0px;
+	margin-left: 500px;
+	margin-bottom: 20px; */ 
+}
+
+.nav p:hover + a{
+	background: #0aff3f;
+	color: brown;
+	cursor: pointer;
+}
+
+a {
+	background-color: brown;
+	color: #0aff3f;
+	text-decoration: none;
+	/* margin-left: 800px;
+	margin-top: 0px; */
+}
+
+a:hover {
+	background-color: #0aff3f;
+	color: brown;
+}

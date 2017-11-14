@@ -1,0 +1,99 @@
+#d {
+			font-family: sans-serif;
+			font-size: 100px;
+
+		}
+
+		#seasons {
+			font-size: 25px;
+		}
+
+		#four {
+			font-family: sans-serif;
+			letter-spacing: 8px;
+			font-size: 50px;
+		}
+
+		#s {
+			font-family: Helvetica;
+			font-size: 33px;
+		}
+
+		#then {
+			font-family: Ariel Narrow;
+			font-size: 64px; 
+		}
+
+		#ad {
+			font-family: Courier;
+			font-style: bold;
+			font-size: 25px;
+			letter-spacing: 10px;
+		}
+
+		#breeze {
+			font-style: italic;
+			font-size: 12px;
+		}
+
+		#trees {
+			font-style: bold;
+			font-size: 50px;
+		}
+
+		#here {
+			font-style: underline;
+			font-size: 44px;
+		}
+		#rain {
+			font-family: sans-serif;
+			letter-spacing: 33px;
+			font-size: 22px; 
+		}
+
+		#poppies {
+			font-family: cursive;
+			font-style: italic;
+			font-size: 77px;
+		}
+
+		#mult {
+			font-style: italic;
+			font-family: Impact;
+			font-size: 125px;
+			left: 300px;
+			position: relative;
+		}
+
+		.nav {
+	font-family: serif;
+	text-align: center;
+}
+
+.nav p {
+	padding: 2px;
+	background-color: brown;
+	color: #0aff3f;
+	/* margin-top: 0px;
+	margin-left: 500px;
+	margin-bottom: 20px; */ 
+}
+
+.nav p:hover + a{
+	background: #0aff3f;
+	color: brown;
+	cursor: pointer;
+}
+
+a {
+	background-color: brown;
+	color: #0aff3f;
+	text-decoration: none;
+	/* margin-left: 800px;
+	margin-top: 0px; */
+}
+
+a:hover {
+	background-color: #0aff3f;
+	color: brown;
+}

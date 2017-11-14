@@ -1,0 +1,166 @@
+div:hover {
+			cursor: pointer;
+		}
+
+		body {
+			text-align: center;
+			font-family: sans-serif;
+		}
+
+		#divide {
+			display:inline-block;
+			margin-top: 0px;
+			margin-bottom:0px;
+			padding: 0px;
+			background-color: white;
+			color: white;
+			font-size: 50px;	
+		}
+
+		#divide:hover {
+			color: black;
+			background-color: white;
+			font-size: 50px;
+		}
+
+		#subtract {
+			display:inline-block;
+			margin-top: 0px;
+			margin-bottom:0px;
+			padding: 0px;
+			background-color: white;
+			color: white;
+			font-size: 50px;	
+		}
+
+		#subtract:hover {
+			color: black;
+			background-color: white;
+			font-size: 50px;
+		}
+
+		#add {
+			display:inline-block;
+			margin-top: 0px;
+			margin-bottom:0px;
+			padding: 0px;
+			background-color: white;
+			color: white;
+			font-size: 50px;	
+		}
+
+		#add:hover {
+			color: black;
+			background-color: white;
+			font-size: 50px;
+		}
+
+		#trees {
+			display:inline-block;
+			margin-top: 0px;
+			margin-bottom:0px;
+			padding: 0px;
+			background-color: white;
+			color: blue;
+			font-size: 50px;	
+		}
+
+		#trees:hover {
+			color: white;
+			background-color: white;
+			font-size: 50px;
+		}
+
+		#here {
+			display:inline-block;
+			margin-top: 0px;
+			margin-bottom:0px;
+			padding: 0px;
+			background-color: white;
+			color: white;	
+		}
+
+		#here:hover {
+			color: black;
+			background-color: white;
+		}
+
+		#rain {
+			display:inline-block;
+			margin-top: 0px;
+			margin-bottom:0px;
+			padding: 0px;
+			background-color: white;
+			color: white;
+			font-size: 50px;	
+		}
+
+		#rain:hover {
+			color: black;
+			background-color: white;
+			font-size: 50px;
+		}
+
+		#poppies {
+			display:inline-block;
+			margin-top: 0px;
+			margin-bottom:0px;
+			padding: 0px;
+			background-color: white;
+			color: white;
+			font-size: 50px;	
+		}
+
+		#poppies:hover {
+			color: orange;
+			background-color: white;
+			font-size: 50px;
+		}
+
+		#mulitply {
+			display:inline-block;
+			margin-top: 0px;
+			margin-bottom:0px;
+			padding: 0px;
+			color: transparent;
+			font-size: 50px;	
+		}
+
+		#multiply:hover {
+			color: black;
+			background-color: white;
+			font-size: 50px;
+		}
+
+		.nav {
+	font-family: serif;
+	text-align: center;
+}
+
+.nav p {
+	padding: 2px;
+	background-color: brown;
+	color: #0aff3f;
+	/* margin-top: 0px;
+	margin-left: 500px;
+	margin-bottom: 20px; */ 
+}
+
+.nav p:hover + a{
+	background: #0aff3f;
+	color: brown;
+	cursor: pointer;
+}
+
+a {
+	background-color: brown;
+	color: #0aff3f;
+	text-decoration: none;
+	/* margin-left: 800px;
+	margin-top: 0px; */
+}
+
+a:hover {
+	background-color: #0aff3f;
+	color: brown;
+}

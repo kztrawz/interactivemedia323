@@ -1,0 +1,90 @@
+#division {
+		 position: relative;
+		}
+
+	.seasons {
+		border: solid thin black;
+		width: 180px;
+		height: 50px;
+		position: relative;
+		left: 3%; 
+	}
+
+	#subtraction {
+		position: relative;
+		left: 200px;
+	}
+
+	.snow {
+		border: dashed thin black;
+		width: 65px;
+		left: 275px;
+		position: relative;
+	}
+
+	#then {
+		position: relative;
+		left: 400px;
+	}
+
+	#addition {
+		position: relative;
+		left: 550px;
+		bottom: 196px;
+	}
+
+	.nature {
+		position: relative;
+		border: solid thin black;
+		width: 215px;
+		padding-left: 2%;
+		left: 600px;
+		bottom: 200px;
+	}
+
+	.sky {
+		position: relative;
+		left: 700px;
+		bottom: 450px;
+
+	}
+
+	#multiplication {
+		position: relative;
+		left: 925px;
+		bottom: 550px;
+
+	}
+
+.nav {
+	font-family: serif;
+	text-align: center;
+}
+
+.nav p {
+	padding: 2px;
+	background-color: brown;
+	color: #0aff3f;
+	/* margin-top: 0px;
+	margin-left: 500px;
+	margin-bottom: 20px; */ 
+}
+
+.nav p:hover + a{
+	background: #0aff3f;
+	color: brown;
+	cursor: pointer;
+}
+
+a {
+	background-color: brown;
+	color: #0aff3f;
+	text-decoration: none;
+	/* margin-left: 800px;
+	margin-top: 0px; */
+}
+
+a:hover {
+	background-color: #0aff3f;
+	color: brown;
+}
