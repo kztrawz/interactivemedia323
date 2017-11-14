@@ -135,8 +135,8 @@ body {
 .pencil:before {
 	content: '';
 	position: absolute;
-	left: 0;
-	top: 0;
+	left: 0px;
+	top: 0px;
 	border-style: solid;
 	border-color: transparent #e29663 transparent transparent;
 	border-width: 17px 40px 18px;
@@ -145,8 +145,8 @@ body {
 
 .top {
 	position: absolute;
-	top: 0;
-	right: 0;
+	top: 0px;
+	right: 0px;
 	height: 15px;
 	width: 30px;
 	background: #ccc;
