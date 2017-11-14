@@ -117,3 +117,52 @@ body {
 	transform: rotate(270deg);
 }
 
+#camera {
+	size: 205px, 155px;
+	background: #D6D6D6;
+	align-content: center;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+}
+
+#lens-shell {
+	size: 125px, 125px;
+	border: 10px solid #F5F5F5;
+	align-content: center;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	box-shadow: 0 8px 0 #C0C0C0;
+}
+
+#lens {
+	size: 105px, 105px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border: 22px solid #00695C;
+	align-content: center;
+}
+
+#lens-cover {
+	size: 62px, 62px;
+	align-content: center;
+	border-top: 31px solid #00897B;
+	border-right: 31px solid #4DB6AC;
+	border-bottom: 31px solid #80CBC4;
+	border-left: 31px solid #26A69A;
+}
+
+#flash {
+	size: 20px, 20px;
+	background: #F5F5F5;
+	float: right;
+	border-radius: 50%;
+	margin: 15px 15px 0 0;
+	box-shadow: 0 4px 0 #C0C0C0;
+}
+
+#button {
+	size: 30px, 5px;
+	margin: -5px 0 0 16px;
+	background: #009587;
+	border-radius: 60px;
+}
