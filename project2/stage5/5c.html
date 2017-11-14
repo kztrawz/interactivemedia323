@@ -2,217 +2,56 @@
 <html>
 <head>
 	<style>
+		@import url(https://fonts.googleapis.com/css?family=Ubuntu);
 
-		.division {
-			font-family: Courier;
-			font-size: 75px;
-			color: brown;
-			position: relative;
-			left: 250px;
-		}
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-		@keyframes fadeInDown {
-  			from {
-    			opacity: 0;
-    			transform: translate3d(0, -100%, 0);
- 				 }
+body {
+  width: 100%;
+  height: 100%;
+}
 
-  			to {
-    			opacity: 1;
-    			transform: none;
-  				}
-		}
+svg {
+  position: absolute;
+  font: 20em Ubuntu;
+  letter-spacing: 0.15em;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+}
 
-		.division:hover {
-			animation-name: fadeInDown; 
-		}
+svg text {
+  fill: #111;
+  stroke: #111;
+  fill-opacity: 1;
+  stroke-width: 0;
+  stroke-dasharray: 100% 0;
+  animation: stroke-offset 3s ease-out;
+}
 
-		.four {
-			font-family: cursive;
-			font-size: 75px;
-			color: purple;
-			position: relative;
-			left: 500px;
-		}
-
-		@keyframes slideInLeft {
-			from {
-    		transform: translate3d(-100%, 0, 0);
-    		visibility: visible;
-  			}
-			
-			to {
-   			transform: translate3d(0, 0, 0);
-  			}				
-		}
-
-		.four:hover {
-			animation-name: slideInLeft;
-		}
-
-		.subtraction {
-			font-family: Ariel Black;
-			font-size: 75px;
-			color: grey;
-			position: relative;
-			left: 350px;
-		}
-
-		@keyframes slideInDown {
-			from {
-    		transform: translate3d(0, -100%, 0);
-    		visibility: visible;
-  			}
-
-  			to {
-    		transform: translate3d(0, 0, 0);
-  			}
-		}
-
-		.subtraction:hover {
-			animation-name: slideInDown;
-		}
-
-		.then {
-			font-family: Helvetica;
-			font-size: 75px;
-			color: pink;
-			position: relative;
-			left: 100px;
-		}
-
-		@keyframes rollIn {
-			from {
-    		opacity: 0;
-    		transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
-  			}
-
-  			to {
-    		opacity: 1;
-    		transform: none;
-  			}
-		}
-
-		.then:hover {
-			animation-name: rollIn;
-		}
-
-		.addition {
-			font-family: sans-serif;
-			font-size: 75px;
-			color: green;
-			position: relative;
-			left: 600px;
-		}
-
-		@keyframes rotateIn {
-			from {
-    		transform-origin: center;
-    		transform: rotate3d(0, 0, 1, -200deg);
-    		opacity: 0;
-  			}
-
-  			to {
-    		transform-origin: center;
-    		transform: none;
-    		opacity: 1;
-  			}
-		}
-
-		.addition:hover {
-			animation-name: rotateIn;
-		}
-
-		.here {
-			font-family: Impact;
-			font-size: 75px;
-			color: blue;
-			position: relative;
-			left: 420px;
-		}
-
-		@keyframes zoomIn {
-			from {
-    		opacity: 0;
-    		transform: scale3d(.3, .3, .3);
-  			}
-
-  			50% {
-    		opacity: 1;
-  			}
-		}
-
-		.here:hover {
-			animation-name: zoomIn;
-		}
-
-		.sky {
-			font-family: serif;
-			font-size: 75px;
-			color: red;
-			position: relative;
-			left: 275px;
-		}
-
-		@keyframes lightSpeedIn {
-			from {
-    		transform: translate3d(100%, 0, 0) skewX(-30deg);
-    		opacity: 0;
-  			}
-
-  			60% {
-    		transform: skewX(20deg);
-    		opacity: 1;
-  			}
-
-  			80% {
-    		transform: skewX(-5deg);
-    		opacity: 1;
-  			}
-
-  			to {
-    		transform: none;
-    		opacity: 1;
-  			}
-		}
-
-		.sky:hover {
-			animation-name: lightSpeedIn;
-			animation-timing-function: ease-out;
-		}
-
-		.multiplication {
-			font-family: Garamond;
-			font-size: 75px;
-			color: orange;
-			position: relative;
-			left: 188px;
-		}
-
-		@keyframes jackInTheBox {
-			from {
-    		opacity: 0;
-    		transform: scale(0.1) rotate(30deg);
-    		transform-origin: center bottom;
-  			}
-
-  			50% {
-    		transform: rotate(-10deg);
-  			}
-
-  			70% {
-    		transform: rotate(3deg);
-  			}
-
-  			to {
-    		opacity: 1;
-    		transform: scale(1);
-  			}		
-		}
-
-		.multiplication:hover {
-			animation-name: jackInTheBox;
-		}
+@keyframes stroke-offset {
+  0% {
+    fill-opacity: 0;
+    stroke-width: 0;
+    stroke-dasharray: 0% 100%;
+  }
+  25% {
+    stroke-width: 3px;
+  }
+  50% {
+    fill-opacity: 0;
+  }
+  75% {
+    stroke-width: 3px;
+  }
+  100% {
+    stroke-width: 0;
+  }
+}
 
 		.nav {
 	font-family: serif;
@@ -276,29 +115,41 @@
 		<a href="http://kztrawz.github.io/interactivemedia323/project2/stage5/5b.html"><div class="previous"> Prev </div></a> <a href="http://kztrawz.github.io/interactivemedia323/project2/index.html"><div class="home"> Home </div> </a> <a href="http://kztrawz.github.io/interactivemedia323/project2/stage5/5d.html"><div class="next"> Next </div> </a>
 	</div>
 
-	<div class="division">
-		<p>Divide the year into seasons,</p>
-	</div>
-	<div class="four">
-		<p>four,</p>
-	</div>
-	<div class="subtraction">
-		<p>subtract the snow</p>
-	</div>
-	<div class="then">
-		<p>then</p>
-	</div>
-	<div class="addition">
-		<p>add some more green, a bud, a breeze, a whispering behind the trees</p>
-	</div>
-	<div class="here">
-		<p>and here</p>
-	</div>
-	<div class="sky">
-		<p>beneath the rain-scrubbed sky</p>
-	</div>
-	<div class="multiplication">
-		<p>orange poppies multiply.</p>
-	</div>
+	<svg viewBox="0 0 1280 720">
+  <text text-anchor="middle" x="50%" y="50%">Divide the year into seasons,</text>
+</svg>
+		<br>
+		<svg viewBox="0 0 1280 720">
+  <text text-anchor="middle" x="50%" y="50%">four,</text>
+</svg>	
+		<br>
+		<svg viewBox="0 0 1280 720">
+  <text text-anchor="middle" x="50%" y="50%">subtract the snow</text>
+</svg>		
+		<br>
+		<svg viewBox="0 0 1280 720">
+  <text text-anchor="middle" x="50%" y="50%">then</text>
+</svg>		
+		<br>
+		<svg viewBox="0 0 1280 720">
+  <text text-anchor="middle" x="50%" y="50%">add some more green, a bud, a breeze, a whispering behind the trees</text>
+</svg>	
+		<br>
+		<svg viewBox="0 0 1280 720">
+  <text text-anchor="middle" x="50%" y="50%">and here</text>
+</svg>	
+		<br>
+		<svg viewBox="0 0 1280 720">
+  <text text-anchor="middle" x="50%" y="50%">beneath the rain-scrubbed sky</text>
+</svg>
+		<br>
+		<svg viewBox="0 0 1280 720">
+  <text text-anchor="middle" x="50%" y="50%">orange poppies multiply.</text>
+</svg>			
+	
+		
+	
+		
+	
 </body>
 </html>
