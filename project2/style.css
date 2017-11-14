@@ -6,7 +6,7 @@ body {
 	position: relative;
 	display: inline-block;
 	top: 640px;
-	left: 500px;
+	margin-left: -100px;
 }
 
 .division {
