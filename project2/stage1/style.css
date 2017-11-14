@@ -5,8 +5,6 @@
 
 .nav p {
 	padding: 2px;
-	height: 25px;
-	width: 50px;
 	background-color: brown;
 	color: #0aff3f;
 	/* margin-top: 0px;
@@ -21,8 +19,6 @@
 }
 
 a {
-	height: 25px;
-	width: 50px;
 	background-color: brown;
 	color: #0aff3f;
 	text-decoration: none;
